@@ -24,6 +24,7 @@ class Student
     self.profile_quote = attributes_hash[:profile_quote]
     self.twitter = attributes_hash[:twitter]
     self.profile_url = attributes_hash[:profile_url]
+    binding.pry
   end
 
   def self.all
