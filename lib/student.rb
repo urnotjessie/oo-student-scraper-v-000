@@ -24,7 +24,6 @@ class Student
     self.linkedin = attributes_hash[:linkedin]
     self.profile_quote = attributes_hash[:profile_quote]
     self.twitter = attributes_hash[:twitter]
-    self.profile_url = attributes_hash[:profile_url]
   end
 
   def self.all
